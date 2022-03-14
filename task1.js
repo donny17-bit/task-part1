@@ -5,17 +5,17 @@ const biodata = {
     IsMarried : false,
     schoolList : [ 
         {            
-            name : "SDN Tegalombo 2",
+            name : "SDN Tadika Mesra 2",
             yearIn : 2002,
             yearOut : 2011,
             major : null 
         }, {
-            name : "SMPN 1 Kalijambe",
+            name : "SMPN 1 Tadika Mesra",
             yearIn : 2011,
             yearOut : 2014,
             major : null
         }, {
-            name : "SMAN Gondangrejo",
+            name : "SMAN Tadika Mesra",
             yearIn : 2014,
             yearOut : 2017,
             major : "Sains"
@@ -47,4 +47,4 @@ const biodata = {
     interestInCoding : true
 }
 
-// console.log(biodata.skill[0])
+console.log(biodata)

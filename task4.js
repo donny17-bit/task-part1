@@ -14,8 +14,10 @@ let data = {
     website : "hildegard.org",
 }
 
-// apa bedanya dari kedua cara dibawah ? :3
+
 // data = {...data, ...{name : "donny"}, ...{email: "doniwahyu14@gmail.com"}, ...{hobby : "gaming"}}
 data = { ...data, name : "donny", email : "doniwahyu14@gmail.com", hobby : "gaming, watch anime, watch movies"}
 
 let {city, street} = data.address
+
+console.log(data)
